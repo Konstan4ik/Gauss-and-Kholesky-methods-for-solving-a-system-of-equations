@@ -73,5 +73,9 @@ The Hilbert matrix is **symmetric** and **positive-definite**, which makes it su
 - At \(n = 13\), Cholesky decomposition fails due to loss of positive-definiteness
 
 ## Visualization
+<img width="885" height="529" alt="image" src="https://github.com/user-attachments/assets/6458230e-da36-4b75-98b4-cdce23e3f632" />
 
+The graph shows the execution time of both methods as a function of the matrix dimension. It can be seen that the Cholesky method is faster for all sizes where it is applicable.
+
+```bash
 
